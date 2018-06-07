@@ -76,15 +76,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
+    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
+    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
+    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
+    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
+    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
+    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
+    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
+    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -95,6 +107,12 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>libarcsoft_fsdk_age_estimation.lib;
+libarcsoft_fsdk_face_detection.lib;
+libarcsoft_fsdk_face_recognition.lib;
+libarcsoft_fsdk_face_tracking.lib;
+libarcsoft_fsdk_gender_estimation.lib
+;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -116,6 +134,12 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>libarcsoft_fsdk_age_estimation.lib;
+libarcsoft_fsdk_face_detection.lib;
+libarcsoft_fsdk_face_recognition.lib;
+libarcsoft_fsdk_face_tracking.lib;
+libarcsoft_fsdk_gender_estimation.lib
+;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -141,6 +165,12 @@
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libarcsoft_fsdk_age_estimation.lib;
+libarcsoft_fsdk_face_detection.lib;
+libarcsoft_fsdk_face_recognition.lib;
+libarcsoft_fsdk_face_tracking.lib;
+libarcsoft_fsdk_gender_estimation.lib
+;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -166,6 +196,12 @@
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libarcsoft_fsdk_age_estimation.lib;
+libarcsoft_fsdk_face_detection.lib;
+libarcsoft_fsdk_face_recognition.lib;
+libarcsoft_fsdk_face_tracking.lib;
+libarcsoft_fsdk_gender_estimation.lib
+;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -181,6 +217,11 @@
   <ItemGroup>
     <ClInclude Include="Face Identification.h" />
     <ClInclude Include="Face IdentificationDlg.h" />
+    <ClInclude Include="FaceComparison.h" />
+    <ClInclude Include="FaceDatabase.h" />
+    <ClInclude Include="FaceIdentification.h" />
+    <ClInclude Include="faceidentification_define.h" />
+    <ClInclude Include="putText.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -188,6 +229,10 @@
   <ItemGroup>
     <ClCompile Include="Face Identification.cpp" />
     <ClCompile Include="Face IdentificationDlg.cpp" />
+    <ClCompile Include="FaceComparison.cpp" />
+    <ClCompile Include="FaceDatabase.cpp" />
+    <ClCompile Include="FaceIdentification.cpp" />
+    <ClCompile Include="putText.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

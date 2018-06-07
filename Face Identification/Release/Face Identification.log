@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  Face Identification.cpp
+  Face IdentificationDlg.cpp
+LINK : fatal error LNK1181: 无法打开输入文件“libarcsoft_fsdk_age_estimation.lib”
