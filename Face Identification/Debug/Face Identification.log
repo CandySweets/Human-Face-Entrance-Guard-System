@@ -1,9 +1,4 @@
-﻿  putText.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\puttext.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
-  FaceIdentification.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\faceidentification.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
-  FaceDatabase.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
-  FaceComparison.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
-  正在生成代码...
+﻿  Face IdentificationDlg.cpp
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\arcface\include\merror.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\face identificationdlg.cpp(238): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Face Identification.vcxproj -> C:\Users\XXC\Desktop\GITUpload\Human-Face-Entrance-Guard-System\Debug\Face Identification.exe

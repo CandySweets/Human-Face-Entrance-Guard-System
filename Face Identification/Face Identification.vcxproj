@@ -76,27 +76,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
-    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
-    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>ArcFace\include;libfacedetection\include;sqlite3;Zbar\include;OpenCV\x86\include;$(IncludePath)</IncludePath>
+    <ReferencePath>ArcFace\dll;libfacedetection\dll;sqlite3;OpenCV\x86\dll;$(ReferencePath)</ReferencePath>
+    <LibraryPath>ArcFace\lib;libfacedetection\lib;sqlite3;Zbar\lib;OpenCV\x86\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
-    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
-    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>ArcFace\include;libfacedetection\include;sqlite3;Zbar\include;OpenCV\x86\include;$(IncludePath)</IncludePath>
+    <ReferencePath>ArcFace\dll;libfacedetection\dll;sqlite3;OpenCV\x86\dll;$(ReferencePath)</ReferencePath>
+    <LibraryPath>ArcFace\lib;libfacedetection\lib;sqlite3;Zbar\lib;OpenCV\x86\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
-    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
-    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>ArcFace\include;libfacedetection\include;sqlite3;Zbar\include;OpenCV\x86\include;$(IncludePath)</IncludePath>
+    <ReferencePath>ArcFace\dll;libfacedetection\dll;sqlite3;OpenCV\x86\dll;$(ReferencePath)</ReferencePath>
+    <LibraryPath>ArcFace\lib;libfacedetection\lib;sqlite3;Zbar\lib;OpenCV\x86\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>\ArcFace\include;\libfacedetection\include;\sqlite3;\Zbar\include;$(IncludePath)</IncludePath>
-    <ReferencePath>\ArcFace\dll;\libfacedetection\dll;\sqlite3;$(ReferencePath)</ReferencePath>
-    <LibraryPath>\ArcFace\lib;\libfacedetection\lib;\sqlite3;\Zbar\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>ArcFace\include;libfacedetection\include;sqlite3;Zbar\include;OpenCV\x86\include;$(IncludePath)</IncludePath>
+    <ReferencePath>ArcFace\dll;libfacedetection\dll;sqlite3;OpenCV\x86\dll;$(ReferencePath)</ReferencePath>
+    <LibraryPath>ArcFace\lib;libfacedetection\lib;sqlite3;Zbar\lib;OpenCV\x86\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -107,12 +107,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalDependencies>libarcsoft_fsdk_age_estimation.lib;
-libarcsoft_fsdk_face_detection.lib;
-libarcsoft_fsdk_face_recognition.lib;
-libarcsoft_fsdk_face_tracking.lib;
-libarcsoft_fsdk_gender_estimation.lib
-;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_world341d.lib;libfacedetect.lib;libarcsoft_fsdk_age_estimation.lib;libarcsoft_fsdk_face_detection.lib;libarcsoft_fsdk_face_recognition.lib;libarcsoft_fsdk_face_tracking.lib;libarcsoft_fsdk_gender_estimation.lib;sqlite3.lib;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -139,7 +134,7 @@ libarcsoft_fsdk_face_detection.lib;
 libarcsoft_fsdk_face_recognition.lib;
 libarcsoft_fsdk_face_tracking.lib;
 libarcsoft_fsdk_gender_estimation.lib
-;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;opencv_world341.lib;opencv_world341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -160,17 +155,14 @@ libarcsoft_fsdk_gender_estimation.lib
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>libarcsoft_fsdk_age_estimation.lib;
-libarcsoft_fsdk_face_detection.lib;
-libarcsoft_fsdk_face_recognition.lib;
-libarcsoft_fsdk_face_tracking.lib;
-libarcsoft_fsdk_gender_estimation.lib
-;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libarcsoft_fsdk_age_estimation.lib;libarcsoft_fsdk_face_detection.lib;libarcsoft_fsdk_face_recognition.lib;libarcsoft_fsdk_face_tracking.lib;libarcsoft_fsdk_gender_estimation.lib
+;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.dll.a;libzbar-0.lib;opencv_world341.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -201,7 +193,7 @@ libarcsoft_fsdk_face_detection.lib;
 libarcsoft_fsdk_face_recognition.lib;
 libarcsoft_fsdk_face_tracking.lib;
 libarcsoft_fsdk_gender_estimation.lib
-;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+;libfacedetect.lib;libfacedetect-x64.lib;sqlite3.lib;libzbar.a;libzbar.dll.a;libzbar-0.lib;opencv_world341.lib;opencv_world341d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -222,6 +214,7 @@ libarcsoft_fsdk_gender_estimation.lib
     <ClInclude Include="FaceIdentification.h" />
     <ClInclude Include="faceidentification_define.h" />
     <ClInclude Include="putText.h" />
+    <ClInclude Include="RegisterNewUser.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -233,6 +226,7 @@ libarcsoft_fsdk_gender_estimation.lib
     <ClCompile Include="FaceDatabase.cpp" />
     <ClCompile Include="FaceIdentification.cpp" />
     <ClCompile Include="putText.cpp" />
+    <ClCompile Include="RegisterNewUser.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

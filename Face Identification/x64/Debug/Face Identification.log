@@ -1,15 +1,155 @@
-﻿  putText.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\puttext.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
-  FaceIdentification.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\faceidentification.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+﻿  FaceIdentification.cpp
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\arcface\include\merror.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\faceidentification.cpp(390): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\faceidentification.cpp(391): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
   FaceDatabase.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\arcface\include\merror.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(97): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(125): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(135): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(147): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(176): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(188): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(198): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facedatabase.cpp(169): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\time.h(505): note: 参见“localtime”的声明
   FaceComparison.cpp
-c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(1): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\arcface\include\merror.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(110): warning C4244: “=”: 从“MFloat”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(278): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(279): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(284): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(287): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(288): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(289): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(290): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(292): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(293): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(295): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(296): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(297): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(316): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(317): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(322): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(325): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(326): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(327): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(328): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(330): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(331): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(333): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(334): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(335): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(353): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(354): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(356): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(358): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(445): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+c:\users\xxc\desktop\gitupload\human-face-entrance-guard-system\face identification\facecomparison.cpp(257): warning C4101: “clockEnd”: 未引用的局部变量
   正在生成代码...
-  正在编译...
-  Face Identification.cpp
-  正在生成代码...
-  正在编译...
-  Face IdentificationDlg.cpp
-  正在生成代码...
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)，该符号在函数 "public: __cdecl cv::Mat::~Mat(void)" (??1Mat@cv@@QEAA@XZ) 中被引用
+FaceDatabase.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPEAX@Z)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "private: char * __cdecl cv::String::allocate(unsigned __int64)" (?allocate@String@cv@@AEAAPEAD_K@Z)，该符号在函数 "public: __cdecl cv::String::String(char const *)" (??0String@cv@@QEAA@PEBD@Z) 中被引用
+FaceDatabase.obj : error LNK2001: 无法解析的外部符号 "private: char * __cdecl cv::String::allocate(unsigned __int64)" (?allocate@String@cv@@AEAAPEAD_K@Z)
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "private: char * __cdecl cv::String::allocate(unsigned __int64)" (?allocate@String@cv@@AEAAPEAD_K@Z)
+putText.obj : error LNK2001: 无法解析的外部符号 "private: char * __cdecl cv::String::allocate(unsigned __int64)" (?allocate@String@cv@@AEAAPEAD_K@Z)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "private: void __cdecl cv::String::deallocate(void)" (?deallocate@String@cv@@AEAAXXZ)，该符号在函数 "public: __cdecl cv::String::~String(void)" (??1String@cv@@QEAA@XZ) 中被引用
+FaceDatabase.obj : error LNK2001: 无法解析的外部符号 "private: void __cdecl cv::String::deallocate(void)" (?deallocate@String@cv@@AEAAXXZ)
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "private: void __cdecl cv::String::deallocate(void)" (?deallocate@String@cv@@AEAAXXZ)
+putText.obj : error LNK2001: 无法解析的外部符号 "private: void __cdecl cv::String::deallocate(void)" (?deallocate@String@cv@@AEAAXXZ)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHAEBVString@1@PEBD1H@Z)，该符号在函数 "public: __cdecl cv::Mat::Mat(class cv::Mat &&)" (??0Mat@cv@@QEAA@$$QEAV01@@Z) 中被引用
+FaceDatabase.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHAEBVString@1@PEBD1H@Z)
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHAEBVString@1@PEBD1H@Z)
+putText.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHAEBVString@1@PEBD1H@Z)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl cv::Mat::Mat(class cv::Mat const &,class cv::Rect_<int> const &)" (??0Mat@cv@@QEAA@AEBV01@AEBV?$Rect_@H@1@@Z)，该符号在函数 "public: class cv::Mat __cdecl cv::Mat::operator()(class cv::Rect_<int> const &)const " (??RMat@cv@@QEBA?AV01@AEBV?$Rect_@H@1@@Z) 中被引用
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl cv::Mat::Mat(class cv::Mat const &,class cv::Rect_<int> const &)" (??0Mat@cv@@QEAA@AEBV01@AEBV?$Rect_@H@1@@Z)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceDatabase.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z)
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::convertTo(class cv::debug_build_guard::_OutputArray const &,int,double,double)const " (?convertTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@HNN@Z)，该符号在函数 "public: void __cdecl <lambda_4dde08a1e6b56de582ec532e75c2c736>::operator()(void)const " (??R<lambda_4dde08a1e6b56de582ec532e75c2c736>@@QEBAXXZ) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: static class cv::MatExpr __cdecl cv::Mat::zeros(int,int,int)" (?zeros@Mat@cv@@SA?AVMatExpr@2@HHH@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: static class cv::MatExpr __cdecl cv::Mat::zeros(class cv::Size_<int>,int)" (?zeros@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ)，该符号在函数 "public: void __cdecl cv::Mat::release(void)" (?release@Mat@cv@@QEAAXXZ) 中被引用
+FaceDatabase.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ)
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QEAAXXZ)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "class cv::MatExpr __cdecl cv::operator+(class cv::Mat const &,class cv::Mat const &)" (??Hcv@@YA?AVMatExpr@0@AEBVMat@0@0@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "class cv::MatExpr __cdecl cv::operator+(class cv::MatExpr const &,class cv::MatExpr const &)" (??Hcv@@YA?AVMatExpr@0@AEBV10@0@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "class cv::MatExpr __cdecl cv::operator-(class cv::Scalar_<double> const &,class cv::Mat const &)" (??Gcv@@YA?AVMatExpr@0@AEBV?$Scalar_@N@0@AEBVMat@0@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "class cv::MatExpr __cdecl cv::operator*(double,class cv::Mat const &)" (??Dcv@@YA?AVMatExpr@0@NAEBVMat@0@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::multiply(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,int)" (?multiply@cv@@YAXAEBV_InputArray@debug_build_guard@1@0AEBV_OutputArray@31@NH@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl cv::Subdiv2D::Subdiv2D(class cv::Rect_<int>)" (??0Subdiv2D@cv@@QEAA@V?$Rect_@H@1@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl cv::Subdiv2D::insert(class cv::Point_<float>)" (?insert@Subdiv2D@cv@@QEAAHV?$Point_@M@2@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Subdiv2D::getTriangleList(class std::vector<class cv::Vec<float,6>,class std::allocator<class cv::Vec<float,6> > > &)const " (?getTriangleList@Subdiv2D@cv@@QEBAXAEAV?$vector@V?$Vec@M$05@cv@@V?$allocator@V?$Vec@M$05@cv@@@std@@@std@@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::warpAffine(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::Size_<int>,int,int,class cv::Scalar_<double> const &)" (?warpAffine@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@0V?$Size_@H@1@HHAEBV?$Scalar_@N@1@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::getAffineTransform(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_InputArray const &)" (?getAffineTransform@cv@@YA?AVMat@1@AEBV_InputArray@debug_build_guard@1@0@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HH@Z)，该符号在函数 "public: void __cdecl <lambda_4dde08a1e6b56de582ec532e75c2c736>::operator()(void)const " (??R<lambda_4dde08a1e6b56de582ec532e75c2c736>@@QEBAXXZ) 中被引用
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@HH@Z)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "class cv::Rect_<int> __cdecl cv::boundingRect(class cv::debug_build_guard::_InputArray const &)" (?boundingRect@cv@@YA?AV?$Rect_@H@1@AEBV_InputArray@debug_build_guard@1@@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceIdentification.obj : error LNK2001: 无法解析的外部符号 "class cv::Rect_<int> __cdecl cv::boundingRect(class cv::debug_build_guard::_InputArray const &)" (?boundingRect@cv@@YA?AV?$Rect_@H@1@AEBV_InputArray@debug_build_guard@1@@Z)
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fillConvexPoly(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::Scalar_<double> const &,int,int)" (?fillConvexPoly@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV_InputArray@31@AEBV?$Scalar_@N@1@HH@Z)，该符号在函数 "public: void __cdecl FaceComparison::FaceFusion(class cv::Mat &,class cv::Mat &)" (?FaceFusion@FaceComparison@@QEAAXAEAVMat@cv@@0@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 AFR_FSDK_InitialEngine，该符号在函数 "public: __cdecl FaceComparison::FaceComparison(void)" (??0FaceComparison@@QEAA@XZ) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 AFR_FSDK_ExtractFRFeature，该符号在函数 "public: void __cdecl FaceComparison::GetFaceModel(struct __tag_ASVL_OFFSCREEN &,struct FaceModel &)" (?GetFaceModel@FaceComparison@@QEAAXAEAU__tag_ASVL_OFFSCREEN@@AEAUFaceModel@@@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 AFR_FSDK_FacePairMatching，该符号在函数 "private: void __cdecl FaceComparison::FaceMatching(struct FaceModel &,struct FaceModel &,float &)" (?FaceMatching@FaceComparison@@AEAAXAEAUFaceModel@@0AEAM@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 AFR_FSDK_UninitialEngine，该符号在函数 "public: __cdecl FaceComparison::~FaceComparison(void)" (??1FaceComparison@@QEAA@XZ) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 ASGE_FSDK_InitGenderEngine，该符号在函数 "public: __cdecl FaceComparison::FaceComparison(void)" (??0FaceComparison@@QEAA@XZ) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 ASGE_FSDK_GenderEstimation_StaticImage，该符号在函数 "public: int __cdecl FaceComparison::GenderEstimation(struct __tag_ASVL_OFFSCREEN &)" (?GenderEstimation@FaceComparison@@QEAAHAEAU__tag_ASVL_OFFSCREEN@@@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 ASGE_FSDK_UninitGenderEngine，该符号在函数 "public: __cdecl FaceComparison::~FaceComparison(void)" (??1FaceComparison@@QEAA@XZ) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 ASAE_FSDK_InitAgeEngine，该符号在函数 "public: __cdecl FaceComparison::FaceComparison(void)" (??0FaceComparison@@QEAA@XZ) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 ASAE_FSDK_AgeEstimation_StaticImage，该符号在函数 "public: int __cdecl FaceComparison::AgeEstimation(struct __tag_ASVL_OFFSCREEN &)" (?AgeEstimation@FaceComparison@@QEAAHAEAU__tag_ASVL_OFFSCREEN@@@Z) 中被引用
+FaceComparison.obj : error LNK2019: 无法解析的外部符号 ASAE_FSDK_UninitAgeEngine，该符号在函数 "public: __cdecl FaceComparison::~FaceComparison(void)" (??1FaceComparison@@QEAA@XZ) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_close，该符号在函数 "public: __cdecl FaceDatabase::~FaceDatabase(void)" (??1FaceDatabase@@QEAA@XZ) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_open，该符号在函数 "public: __cdecl FaceDatabase::FaceDatabase(void)" (??0FaceDatabase@@QEAA@XZ) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_errmsg，该符号在函数 "public: __cdecl FaceDatabase::FaceDatabase(void)" (??0FaceDatabase@@QEAA@XZ) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_prepare，该符号在函数 "public: void __cdecl FaceDatabase::AddNewUser(struct _Personal_Information &,struct FaceModel &,class cv::Mat &)" (?AddNewUser@FaceDatabase@@QEAAXAEAU_Personal_Information@@AEAUFaceModel@@AEAVMat@cv@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_bind_blob，该符号在函数 "public: void __cdecl FaceDatabase::AddNewUser(struct _Personal_Information &,struct FaceModel &,class cv::Mat &)" (?AddNewUser@FaceDatabase@@QEAAXAEAU_Personal_Information@@AEAUFaceModel@@AEAVMat@cv@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_bind_int，该符号在函数 "public: void __cdecl FaceDatabase::AddNewUser(struct _Personal_Information &,struct FaceModel &,class cv::Mat &)" (?AddNewUser@FaceDatabase@@QEAAXAEAU_Personal_Information@@AEAUFaceModel@@AEAVMat@cv@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_bind_text，该符号在函数 "public: void __cdecl FaceDatabase::AddNewUser(struct _Personal_Information &,struct FaceModel &,class cv::Mat &)" (?AddNewUser@FaceDatabase@@QEAAXAEAU_Personal_Information@@AEAUFaceModel@@AEAVMat@cv@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_step，该符号在函数 "public: void __cdecl FaceDatabase::AddNewUser(struct _Personal_Information &,struct FaceModel &,class cv::Mat &)" (?AddNewUser@FaceDatabase@@QEAAXAEAU_Personal_Information@@AEAUFaceModel@@AEAVMat@cv@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_column_blob，该符号在函数 "public: void __cdecl FaceDatabase::GetUserFusionImageByID(int,class cv::Mat &)" (?GetUserFusionImageByID@FaceDatabase@@QEAAXHAEAVMat@cv@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_column_int，该符号在函数 "public: void __cdecl FaceDatabase::GetUserFusionImageByID(int,class cv::Mat &)" (?GetUserFusionImageByID@FaceDatabase@@QEAAXHAEAVMat@cv@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_column_text，该符号在函数 "public: void __cdecl FaceDatabase::SearchPersonInfoByID(int,struct _Personal_Information &)" (?SearchPersonInfoByID@FaceDatabase@@QEAAXHAEAU_Personal_Information@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_column_bytes，该符号在函数 "public: void __cdecl FaceDatabase::SearchFaceModel(int,class FaceModelIterator &)" (?SearchFaceModel@FaceDatabase@@QEAAXHAEAVFaceModelIterator@@@Z) 中被引用
+FaceDatabase.obj : error LNK2019: 无法解析的外部符号 sqlite3_finalize，该符号在函数 "public: void __cdecl FaceDatabase::AddNewUser(struct _Personal_Information &,struct FaceModel &,class cv::Mat &)" (?AddNewUser@FaceDatabase@@QEAAXAEAU_Personal_Information@@AEAUFaceModel@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 "class cv::debug_build_guard::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAAEBV_InputOutputArray@debug_build_guard@1@XZ)，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::bitwise_not(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &)" (?bitwise_not@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@0@Z)，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 "class cv::Mat __cdecl cv::getStructuringElement(int,class cv::Size_<int>,class cv::Point_<int>)" (?getStructuringElement@cv@@YA?AVMat@1@HV?$Size_@H@1@V?$Point_@H@1@@Z)，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::dilate(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,class cv::debug_build_guard::_InputArray const &,class cv::Point_<int>,int,int,class cv::Scalar_<double> const &)" (?dilate@cv@@YAXAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@0V?$Point_@H@1@HHAEBV?$Scalar_@N@1@@Z)，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 "double __cdecl cv::threshold(class cv::debug_build_guard::_InputArray const &,class cv::debug_build_guard::_OutputArray const &,double,double,int)" (?threshold@cv@@YANAEBV_InputArray@debug_build_guard@1@AEBV_OutputArray@31@NNH@Z)，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::findContours(class cv::debug_build_guard::_InputOutputArray const &,class cv::debug_build_guard::_OutputArray const &,int,int,class cv::Point_<int>)" (?findContours@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@AEBV_OutputArray@31@HHV?$Point_@H@1@@Z)，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 "double __cdecl cv::contourArea(class cv::debug_build_guard::_InputArray const &,bool)" (?contourArea@cv@@YANAEBV_InputArray@debug_build_guard@1@_N@Z)，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 AFT_FSDK_InitialFaceEngine，该符号在函数 "public: __cdecl FaceIdentification::FaceIdentification(void)" (??0FaceIdentification@@QEAA@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 AFT_FSDK_FaceFeatureDetect，该符号在函数 "public: struct FI_RESULT __cdecl FaceIdentification::Identify(class cv::Mat &)" (?Identify@FaceIdentification@@QEAA?AUFI_RESULT@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 AFT_FSDK_UninitialFaceEngine，该符号在函数 "public: __cdecl FaceIdentification::~FaceIdentification(void)" (??1FaceIdentification@@QEAA@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 AFD_FSDK_InitialFaceEngine，该符号在函数 "public: __cdecl FaceIdentification::FaceIdentification(void)" (??0FaceIdentification@@QEAA@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 AFD_FSDK_StillImageFaceDetection，该符号在函数 "public: struct _FI_Rect __cdecl FaceIdentification::FaceDetection(class cv::Mat &)" (?FaceDetection@FaceIdentification@@QEAA?AU_FI_Rect@@AEAVMat@cv@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 AFD_FSDK_UninitialFaceEngine，该符号在函数 "public: __cdecl FaceIdentification::~FaceIdentification(void)" (??1FaceIdentification@@QEAA@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_symbol_ref，该符号在函数 "public: class zbar::Symbol & __cdecl zbar::Symbol::operator=(struct zbar::zbar_symbol_s const *)" (??4Symbol@zbar@@QEAAAEAV01@PEBUzbar_symbol_s@1@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_symbol_get_type，该符号在函数 "protected: void __cdecl zbar::Symbol::init(struct zbar::zbar_symbol_s const *)" (?init@Symbol@zbar@@IEAAXPEBUzbar_symbol_s@2@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_symbol_get_data，该符号在函数 "protected: void __cdecl zbar::Symbol::init(struct zbar::zbar_symbol_s const *)" (?init@Symbol@zbar@@IEAAXPEBUzbar_symbol_s@2@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_symbol_get_data_length，该符号在函数 "protected: void __cdecl zbar::Symbol::init(struct zbar::zbar_symbol_s const *)" (?init@Symbol@zbar@@IEAAXPEBUzbar_symbol_s@2@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_symbol_set_ref，该符号在函数 "public: void __cdecl zbar::SymbolSet::ref(int)const " (?ref@SymbolSet@zbar@@QEBAXH@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_symbol_set_first_symbol，该符号在函数 "public: __cdecl zbar::SymbolIterator::SymbolIterator(class zbar::SymbolSet const &)" (??0SymbolIterator@zbar@@QEAA@AEBVSymbolSet@1@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_create，该符号在函数 "public: __cdecl zbar::Image::Image(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,void const *,unsigned long)" (??0Image@zbar@@QEAA@IIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBXK@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_ref，该符号在函数 "public: __cdecl zbar::Image::~Image(void)" (??1Image@zbar@@QEAA@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_get_symbols，该符号在函数 "public: class zbar::SymbolSet __cdecl zbar::Image::get_symbols(void)const " (?get_symbols@Image@zbar@@QEBA?AVSymbolSet@2@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_set_format，该符号在函数 "public: void __cdecl zbar::Image::set_format(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?set_format@Image@zbar@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_set_size，该符号在函数 "public: void __cdecl zbar::Image::set_size(unsigned int,unsigned int)" (?set_size@Image@zbar@@QEAAXII@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_set_data，该符号在函数 "public: void __cdecl zbar::Image::set_data(void const *,unsigned long)" (?set_data@Image@zbar@@QEAAXPEBXK@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_set_userdata，该符号在函数 "public: __cdecl zbar::Image::Image(unsigned int,unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,void const *,unsigned long)" (??0Image@zbar@@QEAA@IIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBXK@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_get_userdata，该符号在函数 "public: __cdecl zbar::Image::~Image(void)" (??1Image@zbar@@QEAA@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_scanner_create，该符号在函数 "public: __cdecl zbar::ImageScanner::ImageScanner(struct zbar::zbar_image_scanner_s *)" (??0ImageScanner@zbar@@QEAA@PEAUzbar_image_scanner_s@1@@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_scanner_destroy，该符号在函数 "public: __cdecl zbar::ImageScanner::~ImageScanner(void)" (??1ImageScanner@zbar@@QEAA@XZ) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_image_scanner_set_config，该符号在函数 "public: int __cdecl zbar::ImageScanner::set_config(enum zbar::zbar_symbol_type_e,enum zbar::zbar_config_e,int)" (?set_config@ImageScanner@zbar@@QEAAHW4zbar_symbol_type_e@2@W4zbar_config_e@2@H@Z) 中被引用
+FaceIdentification.obj : error LNK2019: 无法解析的外部符号 zbar_scan_image，该符号在函数 "public: int __cdecl zbar::ImageScanner::scan(class zbar::Image &)" (?scan@ImageScanner@zbar@@QEAAHAEAVImage@2@@Z) 中被引用
+.\ArcFace\lib\libarcsoft_fsdk_age_estimation.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\ArcFace\lib\libarcsoft_fsdk_face_detection.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\ArcFace\lib\libarcsoft_fsdk_face_recognition.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\ArcFace\lib\libarcsoft_fsdk_face_tracking.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\ArcFace\lib\libarcsoft_fsdk_gender_estimation.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\libfacedetection\lib\libfacedetect.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\ArcFace\lib\sqlite3.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\Zbar\lib\libzbar.a : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\Zbar\lib\libzbar.dll.a : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+.\Zbar\lib\libzbar-0.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+C:\Users\XXC\Desktop\GITUpload\Human-Face-Entrance-Guard-System\x64\Debug\Face Identification.exe : fatal error LNK1120: 77 个无法解析的外部命令
